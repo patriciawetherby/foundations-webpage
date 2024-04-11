@@ -1,11 +1,21 @@
-.header {
-    background-color: #1F2937;
+.header{
     height: 72px;
     display: flex;
     align-items: center;
-    color: #F9FAF8;
     justify-content: space-between;
-    padding: 5px 200px;
+}
+
+.footer{
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.header,.footer {
+    
+    background-color: #1F2937;
+    color: #F9FAF8;
 }
 
 .header-text {
@@ -29,6 +39,12 @@ a {
     text-decoration: none;
 }
 
+.section-1 {
+    color:#F9FAF8;
+    background-color: #1F2937;
+}
+
 body {
     font-family: 'Roboto', sans-serif;
+    padding: 10px 200px;
 }
