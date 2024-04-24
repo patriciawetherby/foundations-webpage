@@ -1,11 +1,16 @@
-.header{
+.header, .section-1, .section-2, .section-3, .section-4, .image, .banner, .footer{
+    padding: 0px 200px;
+}
+.header {
     height: 72px;
     display: flex;
     align-items: center;
     justify-content: space-between;
+    margin: 0px;
+    padding-bottom: 0px;
 }
 
-.footer{
+.footer {
     height: 50px;
     display: flex;
     align-items: center;
@@ -46,4 +51,5 @@ a {
 
 body {
     font-family: 'Roboto', sans-serif;
+    margin: 0;
 }
