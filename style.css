@@ -1,3 +1,5 @@
+/* HEADER and LINKS */
+
 /* This is really ugly, but it works better than a wrapper class for now and body isn't working*/
 .header, .section-1, .section-2, .section-3, .section-4, .image, .banner, .footer{
     padding: 0px 200px;
@@ -37,6 +39,12 @@
     gap: 20px;
 }
 
+.links, .subtext {
+    color: #E5E7EB;
+    font-size: 18px;
+}
+
+/* Remove underline and bullet points */
 ul {
     list-style: none;
 }
@@ -45,6 +53,8 @@ a {
     text-decoration: none;
 }
 
+/* SECTION 1 */
+
 .section-1 {
     color:#F9FAF8;
     background-color: #1F2937;
@@ -52,7 +62,24 @@ a {
     display: flex;
 }
 
+.hero-main-text {
+    font-size: 48px;
+    font-weight: extra-bold;
+    color: #F9FAF8;
+}
 
+.sign-up-1 {
+    border: 1px solid #3882f6;
+    background-color: #3882f6;
+    color: white;
+}
+
+/* Copied from 05-flex-modal */
+button {
+    cursor: pointer;
+    padding: 5px 18px;
+    border-radius: 8px;
+}
 
 body {
     font-family: 'Roboto', sans-serif;
