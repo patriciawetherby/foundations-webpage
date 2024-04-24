@@ -46,5 +46,6 @@ a {
 
 body {
     font-family: 'Roboto', sans-serif;
-    padding: 10px 200px;
+    padding-left: 200px;
+    padding-right: 200px;
 }
