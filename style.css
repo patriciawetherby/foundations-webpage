@@ -1,13 +1,14 @@
+/* This is really ugly, but it works better than a wrapper class for now and body isn't working*/
 .header, .section-1, .section-2, .section-3, .section-4, .image, .banner, .footer{
     padding: 0px 200px;
 }
+
 .header {
     height: 72px;
     display: flex;
     align-items: center;
     justify-content: space-between;
-    margin: 0px;
-    padding-bottom: 0px;
+    margin: 0px; 
 }
 
 .footer {
@@ -47,7 +48,11 @@ a {
 .section-1 {
     color:#F9FAF8;
     background-color: #1F2937;
+    height: 250px;
+    display: flex;
 }
+
+
 
 body {
     font-family: 'Roboto', sans-serif;
