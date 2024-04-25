@@ -98,3 +98,10 @@ body {
         padding: 10px;
     }
 
+/* SECTION 2 */
+
+.image-list {
+    display: flex;
+    flex-direction: row;
+}
+
